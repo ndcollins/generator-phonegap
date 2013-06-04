@@ -7,7 +7,7 @@ var logger = require('./logger.js');
 var color = require("ansi-color").set;
 
 var downloadDir = '/tmp/';
-var phonegap = 'phonegap-2.6.0';
+var phonegap = 'phonegap-2.7.0';
 var zipFile = phonegap + '.zip';
 var url = 'https://s3.amazonaws.com/phonegap.download/' + zipFile;
 
