@@ -17,7 +17,7 @@ function create(platform, packageName, appName) {
   if (!fs.existsSync('./mobile/' + platform)) {
     fs.mkdirSync('./mobile/' + platform);
   }
-  exec('/tmp/phonegap-2.6.0/lib/' + platform + '/bin/create mobile/' + platform + '/ ' + packageName + ' ' + appName, callback);
+  exec('/tmp/phonegap-2.7.0/lib/' + platform + '/bin/create mobile/' + platform + '/ ' + packageName + ' ' + appName, callback);
 }
 
 function callback(error, stdout, stderr) {
